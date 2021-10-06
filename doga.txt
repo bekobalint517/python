@@ -1,0 +1,29 @@
+
+
+eletkor = int(input('Adja meg az életkorát! '))
+print(elektor)
+if eletkor > 13 :
+    minosites = 'gyermek'
+elif eletkor 14 > 17 :
+    minosites = 'fiatalkorú'
+elif eletkor 18 > 23 :
+    minosites = 'Ifjú' :
+elif eletkor 24 > 59 :
+    minosites = 'felnott'
+elif eletkor < 60 :
+    minosites = 'idos'
+print(f'{eletkor} az {minosites}')
+
+
+
+
+
+
+
+
+
+# 0 – 13 évig: Gyermek
+#14 – 17 évig: Fiatalkorú
+#18 – 23 évig: Ifjú
+#24 – 59 évig: FelnĘtt
+#60 évtĘl IdĘs
